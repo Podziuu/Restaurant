@@ -104,3 +104,58 @@ ul li a {
 nav a:hover {
     opacity: 0.8;
 }
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 650px;
+}
+
+h1 {
+    font-size: 4em;
+    color: white;
+    background-color: #026e78;
+    font-weight: 100;
+    padding: 20px;
+}
+
+#firstBtn {
+    border: none;
+    color: #026e78;
+    font-size: 2em;
+    padding: 15px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#secondBtn {
+    border: none;
+    background-color: #2d99a4;
+    color: white;
+    padding: 15px;
+    font-size: 2em;
+}
+
+@media (max-width: 1000px) {
+    #container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 800px){
+    #firstnav {
+        flex-direction: column;
+    }
+    section {
+        font-size: 0.6em;
+    }
+}
+
+@media (max-width: 700px) {
+    nav ul {
+        flex-wrap: wrap;
+        margin-bottom: 1em;
+    }
+}
