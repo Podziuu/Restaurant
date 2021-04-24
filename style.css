@@ -1,0 +1,7 @@
+#full-picture {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://10websites-design-to-html-css.netlify.app/restaurant-design/bg.png");
+    background-position: center;
+    background-size: cover;
+}
