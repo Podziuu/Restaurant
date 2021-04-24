@@ -1,7 +1,46 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 #full-picture {
     width: 100vw;
     height: 100vh;
     background-image: url("https://10websites-design-to-html-css.netlify.app/restaurant-design/bg.png");
     background-position: center;
     background-size: cover;
+}
+
+#container {
+    height: 100vh;
+    width: 1000px;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#firstnav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 70px;
+    border: 2px solid black;
+    font-size: 2.5em;
+    align-items: center;
+}
+
+#phone {
+    font-size: 0.7em;
+}
+
+#logo {
+    color: #026e78;
+    font-weight: bold;
+}
+
+.fas {
+    margin-right: 15px;
 }
